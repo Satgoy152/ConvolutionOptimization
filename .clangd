@@ -1,0 +1,4 @@
+CompileFlags:                     # Tweak the parse settings
+  Add: [--no-cuda-version-check]
+  Remove: [-forward-unknown-to-host-compiler, --options-file, -gencode, -Xcudafe, --diag_suppress=*, --expt-relaxed-constexpr, --expt-extended-lambda, -Xcompiler=-fPIC, --threads]
+  CompilationDatabase: support/build
